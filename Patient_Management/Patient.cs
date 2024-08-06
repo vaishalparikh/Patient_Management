@@ -14,5 +14,13 @@ namespace Patient_Management
         public string PatientDescription { get; set; }
         public string PatientAddress { get; set; }
 
+        public Patient()
+        {
+            PatientId = 1;
+            PatientName = "Shreyansh R";
+            PatientDescription = "KFIO"; // 
+            PatientAddress = "Arnit ke ghar pe ";
+        }
+
     }
 }
